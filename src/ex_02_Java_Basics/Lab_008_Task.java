@@ -1,6 +1,6 @@
 package ex_02_Java_Basics;
 
-public class Task1 {
+public class Lab_008_Task {
     public static void main(String[] args){
         int num = 9;
         System.out.printf("%d * %d = %d",num,1,num).println();
