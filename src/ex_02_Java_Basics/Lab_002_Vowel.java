@@ -5,10 +5,9 @@ import java.util.Scanner;
 
 public class Lab_002_Vowel {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter a character: ");
-        char ch = scanner.next().toLowerCase().charAt(0); // Read and convert to lowercase
+        char ch = sc.next().toLowerCase().charAt(0); // Read and convert to lowercase
 
         if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
             System.out.println(ch + " is a vowel.");
@@ -16,6 +15,6 @@ public class Lab_002_Vowel {
             System.out.println(ch + " is not a vowel.");
         }
 
-        scanner.close();
+        sc.close();
     }
 }
