@@ -18,5 +18,9 @@ public class Lab_0065_RealTime_MultiLevel_Inheritence {
         s1.home();
         System.out.println(s1.gold_gf);
 
+        GrandFather g1 = new Son(); // Dynamic Dispatch
+        g1.home();
+        g1.gf();
+
     }
 }
